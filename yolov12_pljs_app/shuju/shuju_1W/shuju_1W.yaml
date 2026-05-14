@@ -1,0 +1,9 @@
+path: "D:/\u684C\u9762/yolov12-main/shuju/shuju_1W"
+train: images/train
+val: images/val
+test: images/test
+nc: 3
+names:
+- Yawn
+- Eyeclosed
+- Neutral

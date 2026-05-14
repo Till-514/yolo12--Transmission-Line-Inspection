@@ -1,0 +1,14 @@
+train: D:\Lzz_Projects\yolov12-main\shuju\data_v12\train\images   # train images 训练集
+val: D:\Lzz_Projects\yolov12-main\shuju\data_v12\val\images       # val images 验证集
+test: D:\Lzz_Projects\yolov12-main\shuju\data_v12\test\images      # test images 测试集
+
+
+nc: 7
+names: ['broken', 'insulator', 'flash','ham_broken','ham','GR','GR_incline']
+# 标签中文名称：绝缘子破损，正常绝缘子，绝缘子闪络，
+# 序号数字：   0         1         2              3         4                 5            6
+
+#左侧功能面板（按钮、分组、颜色）
+#右侧显示区域（标题、图像边框、结果区域）
+#弹窗（设置、记录、AI分析）
+#整体配色方案（深色模式 / 科技蓝 / 极简白）
